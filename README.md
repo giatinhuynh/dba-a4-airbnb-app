@@ -2,11 +2,11 @@
 
 ## Student Details
 
-Student ID: s3962053
-Student email: s3962063@student.rmit.edu.au
-Full name: Gia Tin Huynh Duc
-Github: (giatinhuynh)[https://github.com/giatinhuynh]
-Github repo: (dba-a4-airbnb-app)https://github.com/giatinhuynh/dba-a4-airbnb-app
+- Full name: Gia Tin Huynh Duc
+- Student ID: s3962053
+- Student email: s3962063@student.rmit.edu.au
+- Github: [giatinhuynh](https://github.com/giatinhuynh)
+- Github repo: [dba-a4-airbnb-app](https://github.com/giatinhuynh/dba-a4-airbnb-app)
 
 ## Overview 
 
