@@ -25,7 +25,7 @@ This project is a simple Airbnb-like booking application that allows users to br
 #### Backend Setup:
 1. Make sure you have Node.js and npm installed.
 2. Clone the repository and navigate to the project directory.
-3. Create a .env file in the root of the project. You can either use the provided MongoDB connection or your own. Here's the content of the .env file:
+3. Use the provided .env or create a .env file in the root of the project. You can either use the provided MongoDB connection or your own. Here's the content of the .env file:
     ```
     MONGO_URI=mongodb+srv://s3962053:giatinqn123@dba-cluster.pqlyc.mongodb.net/?retryWrites=true&w=majority&appName=DBA-Cluster
     PORT=5000
