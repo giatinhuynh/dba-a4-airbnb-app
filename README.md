@@ -1,4 +1,4 @@
-# Airbnb Booking Application
+# ISYS1101/1102 Database Application Assignment 4: Airbnb Booking Application
 
 ## Student Details
 
