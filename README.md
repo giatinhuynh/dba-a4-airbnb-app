@@ -1,5 +1,15 @@
 # Airbnb Booking Application
 
+## Student Details
+
+Student ID: s3962053
+Student email: s3962063@student.rmit.edu.au
+Full name: Gia Tin Huynh Duc
+Github: (giatinhuynh)[https://github.com/giatinhuynh]
+Github repo: (dba-a4-airbnb-app)https://github.com/giatinhuynh/dba-a4-airbnb-app
+
+## Overview 
+
 This project is a simple Airbnb-like booking application that allows users to browse available listings, filter them by location, property type, and number of bedrooms, and make bookings. It includes three main pages: the homepage (listing search), the booking page, and the booking confirmation page.
 
 ## Features
@@ -15,32 +25,32 @@ This project is a simple Airbnb-like booking application that allows users to br
 #### Backend Setup:
 1. Make sure you have Node.js and npm installed.
 2. Clone the repository and navigate to the project directory.
-3. Create a `.env` file in the root of the project with the following content (adjust `MONGO_URI` to point to your MongoDB database):
-    ```env
-    MONGO_URI=<Your MongoDB Connection String>
+3. Create a .env file in the root of the project. You can either use the provided MongoDB connection or your own. Here's the content of the .env file:
+    ```
+    MONGO_URI=mongodb+srv://s3962053:giatinqn123@dba-cluster.pqlyc.mongodb.net/?retryWrites=true&w=majority&appName=DBA-Cluster
     PORT=5000
     ```
 4. Install the backend dependencies by running:
-    ```bash
+    ```
     npm install
     ```
 5. Start the backend server:
-    ```bash
+    ```
     npm start
     ```
     The backend server will run on `http://localhost:5000`.
 
 #### Frontend Setup:
 1. Navigate to the `/client` folder:
-    ```bash
+    ```
     cd client
     ```
 2. Install the frontend dependencies by running:
-    ```bash
+    ```
     npm install
     ```
 3. Start the frontend:
-    ```bash
+    ```
     npm start
     ```
     The frontend will run on `http://localhost:3000`.
@@ -70,7 +80,6 @@ The following libraries are required for the frontend and will be installed via 
 
 ### 4. Important Notes
 - **Port Numbers**: The backend will run on `http://localhost:5000` and the frontend on `http://localhost:3000`. Ensure both are running before testing the application.
-- **MongoDB**: You need to provide your own MongoDB connection string in the `.env` file for storing and retrieving data. If using MongoDB Atlas, make sure to enable access to your local machine's IP address.
 - **Error Handling**: If you encounter any errors during the setup, ensure that all dependencies are installed and the MongoDB connection string is correct.
 
 ### 5. Folder Structure
@@ -89,7 +98,7 @@ The following libraries are required for the frontend and will be installed via 
 └── package.json
 ```
 
-### 6. Sample .env File
+### 6. .env File
 ```
 MONGO_URI=mongodb+srv://s3962053:giatinqn123@dba-cluster.pqlyc.mongodb.net/?retryWrites=true&w=majority&appName=DBA-Cluster
 PORT=5000
@@ -111,3 +120,6 @@ PORT=5000
 - **MongoDB Connection**: If you receive connection errors, ensure that your MongoDB connection string is correct and that the database allows connections from your IP address.
 
 - **Port Conflicts**: If the port `3000` or `5000` is in use, you can change the port in the `.env` file or by modifying the start command in the respective `package.json` files.
+
+### 9. Thank You
+Thank you so much for taking the time to review and mark this project! I truly appreciate your effort and dedication. Throughout this project, I have learned a lot, and your feedback will only help me grow further. Your work is invaluable in shaping our skills, and I am deeply grateful for the opportunity to present this project to you. 🙏🎉
